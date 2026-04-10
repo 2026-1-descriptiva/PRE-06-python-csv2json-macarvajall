@@ -3,7 +3,8 @@
 import csv
 import json
 
-from nicegui import ui
+import nicegui
+ui = nicegui.ui
 
 
 def convert_csv_2_json(input_file):
@@ -42,5 +43,3 @@ def app():
 
 
 app()
-
-# pip3 install nicegui
